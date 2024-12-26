@@ -57,7 +57,24 @@ body {
   left: 150px;
   z-index: 4;
   filter: drop-shadow(0.75em 0.75em 0.5em);
+  animation: shimmer 2s infinite alternate;
 }
+
+@keyframes shimmer {
+  0% {
+    opacity: 1;
+    filter: drop-shadow(0.75em 0.75em 0.5em);
+  }
+  50% {
+    opacity: 0.8;
+    filter: drop-shadow(0.5em 0.5em 0.3em);
+  }
+  100% {
+    opacity: 1;
+    filter: drop-shadow(0.75em 0.75em 0.5em);
+  }
+}
+
 
 .cone {
   width: 150px;
