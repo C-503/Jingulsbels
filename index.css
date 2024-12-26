@@ -58,8 +58,30 @@ body {
   z-index: 4;
   filter: drop-shadow(0.75em 0.75em 0.5em);
   animation: shimmer 2s infinite alternate;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 30px 40.6666666667px 24px 30px rgb(255, 214, 0);
+  animation-name: flash-1S;
+  animation-duration: 2s;
+}
+.start li:nth-child(2n + 1) {
+  background: rgba(255, 214, 0, 1);
+  box-shadow: 30px 40.6666666667px 24px 30px rgba(0, 255, 255, 0.5);
+  animation-name: flash-2;
+  animation-duration: 0.4s;
 }
 
+@keyframes flash-1S {
+  0%,
+  100% {
+    background: rgba(255, 214, 0, 1);
+    box-shadow: 30px 40.6666666667px 24px 30px rgba(255, 214, 0, 1);
+  }
+  50% {
+    background: rgba(255, 214, 0, 0.7);
+    box-shadow: 30px 40.6666666667px 24px 30px rgba(255, 214, 0, 0.7);
+  }
+}
 @keyframes shimmer {
   0% {
     opacity: 1;
@@ -74,7 +96,6 @@ body {
     filter: drop-shadow(0.75em 0.75em 0.5em);
   }
 }
-
 
 .cone {
   width: 150px;
