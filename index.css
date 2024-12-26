@@ -105,7 +105,7 @@ body {
   height: 75px;
   background: radial-gradient(farthest-side at top, #4e2402, #351801);
   z-index: -1;
-  left: 150px;
+  left: 165px;
 }
 
 /* ornaments */
@@ -274,7 +274,7 @@ body {
   height: 50px;
   background-color: #ffc857;
   top: 365px;
-  left: 75px;
+  left: 95px;
   box-shadow: inset -8px 0 0 rgba(0, 0, 0, 0.07);
 }
 
@@ -305,7 +305,7 @@ body {
   border-radius: 50%;
   transform: skew(15deg, 15deg);
   top: 350px;
-  left: 80px;
+  left: 100px;
 }
 
 .ribbon:before {
@@ -326,7 +326,7 @@ body {
   height: 40px;
   background-color: #08bdbd;
   top: 380px;
-  left: 200px;
+  left: 230px;
   box-shadow: inset -8px 0 0 rgba(0, 0, 0, 0.07);
 }
 
@@ -357,7 +357,7 @@ body {
   border-radius: 50%;
   transform: skew(15deg, 15deg);
   top: 370px;
-  left: 205px;
+  left: 235px;
 }
 
 .ribbon2:before {
@@ -706,7 +706,7 @@ svg {
   margin: 40px auto 50px auto;
   position: relative;
   bottom: 430px;
-  right: 145px;
+  right: 125px;
 }
 
 .artboard {
